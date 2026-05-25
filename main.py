@@ -85,16 +85,3 @@ def GetUsers():
         "users":users
     }
 
-#need odin to add this so that backend and frontend are connected 
-""" fetch("http://127.0.0.1:8000/test")
-  .then(res => res.json())
-  .then(data => {
-    console.log(data.message);
-  });
- """
-
-""" flow:
-fontend uses fetch
-request Sent 
-backend returns json 
-frontend recieves data """
